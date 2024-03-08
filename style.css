@@ -1,0 +1,56 @@
+html {
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.img-up, .img-down {
+  text-align: center;
+  
+}
+.img-up img, .img-down img {
+  width: 70%;
+  border-radius: 20px;
+}
+caption {
+  caption-side:bottom;
+  text-align: right;
+  padding: 10px;
+}
+
+
+
+table {
+  table-layout: fixed;
+  
+  border-collapse: collapse;
+  border: 2px solid rgb(200, 200, 200);
+}
+
+th,
+td {
+  padding: 10px 20px;
+  border: 1px solid rgb(190, 190, 190);
+  text-align: center;
+}
+th {
+  letter-spacing: 2px;
+}
+td {
+  letter-spacing: 1px;
+}
+
+th {
+  background-color: rgb(222, 225, 220);
+}
+tr:nth-child(odd) td {
+  background-color: rgb(143, 192, 226);
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(203, 175, 114);
+}
+
+
+
